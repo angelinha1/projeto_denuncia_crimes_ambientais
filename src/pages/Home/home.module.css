@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+    background: #033001;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: white;
+    padding-left: 2rem;
+}
+
+.header img {
+    margin-top: 2rem;
+    width: 40vw;
+    height: 60vh;
+}
+
+@media(max-width: 765px) {
+    .header {
+        text-align: center;
+        background: #033001;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header img {
+        margin: 2rem;
+        width: 80%;
+        height: 80%;
+  }
+}

@@ -1,0 +1,40 @@
+.about {
+    background: #033001;
+    padding: 67px;
+    display: flex;
+    width: 100%;
+    background-image: url('../../assets/flora.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background: #066b01;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 50%;
+}
+
+.about p {
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 1rem;
+    text-align: justify;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+}
