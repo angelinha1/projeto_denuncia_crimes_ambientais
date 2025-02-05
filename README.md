@@ -1,8 +1,8 @@
-# Projeto de Denúncia de Crimes Ambientais na Amazônia
+# Projeto de Visualização de Crimes Ambientais na Amazônia no período da pandemia de Covid-19
 
 # Contexto
 
-Este site pretende ser uma ferramenta prática e fácil de denúncia de crimes ambientais no estado do Amazonas, permitindo que os cidadãos  contribuam para a proteção do ecossistema amazônico e para repressão de tais atividades ilegais.
+Este site pretende ser utilizado como um painel de consulta para os crimes ambientais ocorridos e denunciados durante o período de pandemia da covid 19, sendo ele o fruto de uma pesquisa de doutorado.
 
 # Como surgiu? 
 
@@ -12,11 +12,14 @@ Nessa perspectiva, defender a Amazônia é uma responsabilidade pessoal e social
 
 # Contexto técnico
 
-Utilizei o react-router-dom para criar as rotas da minha aplicação. 
-Utilizei a biblioteca de imagens "https://unsplash.com/". 
-Utilizei o phosphor e o react-icons para o menu hambúrguer. 
-Utilizei emailJS, para servir como o gerenciador de e-mails recebidos pelo formulário de denúncias. 
-Utilizei o vercel para realizar o deploy.
+- Utilizei o react-router-dom para criar as rotas da minha aplicação. 
+- Utilizei a biblioteca de imagens "https://unsplash.com/". 
+- Utilizei o phosphor e o react-icons para o menu hambúrguer. 
+- Utilizei emailJS, para servir como o gerenciador de e-mails recebidos pelo formulário de denúncias. (removido do projeto na v2)
+- Utilizei o vercel para realizar o deploy.
+
+Foram utilizados ainda Excel e PowerBI para criar o painel de visualização de dados das denúncias de crimes ambientais, tendo sido feito pela desenvolvedora Milena (@milenaslv20), tendo como <a href="https://github.com/Milenaslv20/Relatorio-Ambiental">repositório no github</a>.
+
 
 ### `Tecnologias usadas`
 
@@ -26,7 +29,7 @@ Utilizei o vercel para realizar o deploy.
 | --- | --- |
 | `ReactJS` | framework web|
 | `Vite` | gerador de projeto de front-end|
-| `emailJS` | EmailJS é uma ferramenta na categoria API de email de uma pilha de tecnologia.|
+| `emailJS` | EmailJS é uma ferramenta na categoria API de email de uma pilha de tecnologia. (removido na v2)|
 | `Phosphor` | Dependência com icones|
 | `React Icons` | Dependência para utilizar icones|
 | `React Router Dom` | Dependência para criar rotas|
@@ -44,8 +47,7 @@ Siga os passos e inclua as informações abaixo:
 | --------------------------- | ------------------ |
 | Faça o fork                 | `botão de forkar`  |
 | Faça o clone                | `git clone`        |
-| Crie as variáveis de ambiente                | `estão no .env.example`        |
-| Instale as dependências após acessar a pasta projeto    | `npm i`            |
+| Instale as dependências após acessar a pasta projeto    | `npm i` ou `npm install`    |
 | Rode o projeto              | `npm run dev`       |
 |
 
@@ -53,4 +55,4 @@ Siga os passos e inclua as informações abaixo:
 <br />
 
 
-<p><b> Desenvolvido por Ângela Carvalho para Sâmara com produto da sua dissertação de doutorado.</p>
+<p><b> Desenvolvido por Ângela Carvalho para Sâmara Barbosa como produto de sua dissertação de doutorado.</p>
