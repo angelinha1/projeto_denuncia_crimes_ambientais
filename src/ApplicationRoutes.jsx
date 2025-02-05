@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Sobre from './pages/Sobre/Sobre'
-import Denuncia from './pages/Denuncia/Denuncia'
+import PowerBI from './pages/PowerBI/PowerBI'
 import Contato from './pages/Contato/Contato'
 import Artigos from './pages/Artigos/Artigos'
 import Footer from './components/Footer/Footer'
@@ -15,7 +15,7 @@ function ApplicationRoutes() {
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/sobre" element={<Sobre />} />
-            <Route path="/denuncia" element={<Denuncia />} />
+            <Route path="/powerbi" element={<PowerBI />} />
             <Route path="/contato" element={<Contato />} />
             <Route path="/artigos" element={<Artigos />} />
         </Routes>

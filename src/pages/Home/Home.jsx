@@ -5,9 +5,9 @@ function Home () {
     return(
         <div className={styles.header}>
             <h1>
-                Canal de Denúncias de Crimes Ambientais do Amazonas
+                Painel dos Crimes Ambientais durante a covid 19 no estado do Amazonas.
             </h1>
-            <img src={floresta} />
+            <img alt='imagem de um rio contornando uma floresta' src={floresta} />
         </div>
     )
 }

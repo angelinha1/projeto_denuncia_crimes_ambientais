@@ -22,7 +22,7 @@ function Menu() {
           <Link  className={open ? styles.linkOpen : styles.link} to="/sobre">Sobre</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
-          <Link className={open ? styles.linkOpen : styles.link} to="/denuncia">Denúncia</Link>
+          <Link className={open ? styles.linkOpen : styles.link} to="/powerbi">Painel de Crimes</Link>
         </li>
         <li className={open ? styles.itemOpen : styles.item}>
           <Link className={open ? styles.linkOpen : styles.link} to="/artigos">Artigos</Link>
